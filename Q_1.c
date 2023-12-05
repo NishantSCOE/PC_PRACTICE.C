@@ -10,10 +10,10 @@ int main()
     printf("Enter a int, float, double, char to know size: ");
     scanf("%d %f %lf %c", &a, &b, &c, &d);
 
-    printf("The size of %d is %d\n", a, sizeof(a));
-    printf("The size of %.2f is %d\n", b, sizeof(b));
-    printf("The size of %.3lf is %d\n", c, sizeof(c));
-    printf("The size of %c is %d\n", d, sizeof(d));
+    printf("The size of %d is %ln\n", a, sizeof(a));
+    printf("The size of %.2f is %ln\n", b, sizeof(b));
+    printf("The size of %.3lf is %ln\n", c, sizeof(c));
+    printf("The size of %c is %ln\n", d, sizeof(d));
 
     return 0;
 }
